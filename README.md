@@ -62,17 +62,9 @@ Click on the video window once so it has keyboard focus. Then hold up both hands
 - Resolution is set to 960x720 as a request. Some cameras will give you something else. The code reads the real frame size, so it still works.
 - If the camera doesn't open, try changing `cv2.VideoCapture(0)` to `1` or `2`.
 
-## Ideas to try next
 
-- Pinch distance controls the delay amount.
-- Swap the past frame for a blur, pixelate, edge-detect, or thermal-style filter.
-- Show the frame flipped upside down inside the portal.
-- Add a gesture to freeze the portal on a single moment.
 
-## Credits
 
-Built with [OpenCV](https://opencv.org/) and [MediaPipe](https://developers.google.com/mediapipe). This project grew out of an invisibility cloak experiment that used a still background instead of a rolling buffer.
+https://github.com/user-attachments/assets/e5238e27-7068-45d9-9182-d2986207587c
 
-## License
 
-MIT. Do what you want with it. If you make something fun, I'd like to see it.
